@@ -1,0 +1,37 @@
+Confirm that expected users exist
+1|Alice|1999-01-02
+2|Bob|2001-06-15
+3|Carol|2000-04-17
+Confirm that we can add a new user with automatic primary key
+1|Alice|1999-01-02
+2|Bob|2001-06-15
+3|Carol|2000-04-17
+4|Dan|
+Confirm that we cannot add duplicate users
+1|Alice|1999-01-02
+2|Bob|2001-06-15
+3|Carol|2000-04-17
+4|Dan|
+Confirm that names must have a value
+1|Alice|1999-01-02
+2|Bob|2001-06-15
+3|Carol|2000-04-17
+4|Dan|
+Confirm that games exist
+1|Chess|7
+2|Go|4
+3|Checkers|12
+Confirm that names must have a value
+1|Chess|7
+2|Go|4
+3|Checkers|12
+Confirm that we can insert a value and times_played defaults to 0
+1|Chess|7
+2|Go|4
+3|Checkers|12
+4|Tic Tac Toe|0
+Confirm that we can't assign times_played to null
+1|Chess|7
+2|Go|4
+3|Checkers|12
+4|Tic Tac Toe|0
