@@ -33,3 +33,5 @@ Testing
 -------
 
 If you would like to confirm that your solution exactly meets expectations, you may run `make test` to confirm that the expected output of my solution exactly matches your solution. This command should result in no differences between the expected output and your output.
+
+The test script is located in `tests.sql` and the expected output is located in `test-expected.txt`.
