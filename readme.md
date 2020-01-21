@@ -10,7 +10,7 @@ You will create a SQL script called `solution.sql` that does the following when 
 
 ### Users Table
 
-Your script will creates a table named `users` with an autoincrementing integer primary key called `id`,  a `name` text field that must always be assigned a value, and a birthdate datetime field.
+Your script will create a table named `users` with an autoincrementing integer primary key called `id`,  a `name` text field that must always be assigned a value, and a `birthdate` datetime field.
 
 Your script will insert the following users into the table:
 
@@ -21,7 +21,7 @@ Your script will insert the following users into the table:
 
 ### Games Table
 
-Your script will creates a table named `games` with an autoincrementing integer primary key called `id`,  a `name` text field that must always be assigned a value, and a `times_played` field that defaults to zero and must always have a value.
+Your script will create a table named `games` with an autoincrementing integer primary key called `id`,  a `name` text field that must always be assigned a value, and a `times_played` field that defaults to zero and must always have a value.
 
 Your script will insert the following games into the table:
 
